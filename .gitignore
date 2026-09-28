@@ -1,0 +1,28 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+
+# Local reference material not required by the prototype
+/src/imports/Team3_A1_RTM__1_.xlsx
+/src/imports/ChatGPT_Image_Sep_28__2026__12_19_14_PM.png
+/src/imports/_0A49DEC6-6D77-4CBA-A38D-171681DE855F_.png
+/src/imports/bonorong-simplified-map.png
+/src/imports/Cute-Wombat.jpg
+/src/imports/image.png
+
+# Platform-managed agentplat state, not project source. In the
+# client-initiated single-repo workspace layout (make's `Path: "."` spec) the
+# repo root IS the workspace root, so these land inside this repo rather than
+# beside it.
+/.plugins/
+/.opencode-skills/
